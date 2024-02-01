@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body >
+    <header>
+        <h1>Idade</h1>
+    </header>
+    <section>
+        <div>
+            <P>Ano de Nascimento
+            <input type="number" name="txtano" id="txtano" min="0">
+        </P>
+        <p>Sexo <br>
+           <input type="radio"name="radsex"id="masc" checked > 
+            <label for="masc">Masculino</label>
+            <input type="radio"name="radsex"id="fem" >
+            <label for="fem">Femenino</label>
+        </p>
+        <p>
+            <input type="button" value="verificar" onclick="verificar()">
+        </p>
+        </div>
+
+        <div id="res">
+            <p>Aparece</p>
+            <img id="foto">
+            
+           
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Criado por Edy</p>
+    </footer>
+    <script src="edy.js"></script>
+</body>
+</html>
